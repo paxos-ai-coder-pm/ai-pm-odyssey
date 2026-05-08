@@ -1,0 +1,42 @@
+/* ============================================
+   CSS VARIABLES - AI PM ODYSSEY THEME
+   Inspired by Uber's design sophistication
+   ============================================ */
+
+:root {
+    --bg-primary: #0f0f1a;
+    --bg-secondary: #16162a;
+    --bg-card: #1c1c35;
+    --bg-card-hover: #242445;
+    --bg-elevated: #2a2a50;
+    --accent-purple: #7c3aed;
+    --accent-blue: #3b82f6;
+    --accent-cyan: #06b6d4;
+    --accent-pink: #ec4899;
+    --accent-orange: #f97316;
+    --accent-green: #22c55e;
+    --accent-yellow: #eab308;
+    --text-primary: #f1f1f9;
+    --text-secondary: #9494b8;
+    --text-muted: #5c5c7a;
+    --border-subtle: rgba(124, 58, 237, 0.12);
+    --border-hover: rgba(124, 58, 237, 0.25);
+    --glass-bg: rgba(22, 22, 42, 0.7);
+    --glass-border: rgba(124, 58, 237, 0.08);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+    --shadow-glow-purple: 0 0 20px rgba(124, 58, 237, 0.15);
+    --shadow-glow-cyan: 0 0 20px rgba(6, 182, 212, 0.15);
+    --gradient-primary: linear-gradient(135deg, #7c3aed, #3b82f6);
+    --gradient-accent: linear-gradient(135deg, #ec4899, #f97316);
+    --gradient-cyber: linear-gradient(135deg, #06b6d4, #7c3aed);
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+    --sidebar-width: 260px;
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+}

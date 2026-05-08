@@ -1,0 +1,60 @@
+/* ============================================
+   AI PM ODYSSEY - PREMIUM MINIMALIST THEME
+   Inspired by Uber's design sophistication
+   ============================================ */
+
+/* Import modular CSS files */
+@import url('variables.css');
+@import url('reset.css');
+@import url('loading.css');
+
+/* Additional imports for other modules (to be created) */
+/* @import url('layout.css'); */
+/* @import url('components.css'); */
+/* @import url('animations.css'); */
+/* @import url('responsive.css'); */
+
+/* ============================================
+   PARTICLE CANVAS
+   ============================================ */
+#particle-canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+/* ============================================
+   APP LAYOUT
+   ============================================ */
+#app {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+#sidebar {
+    width: var(--sidebar-width);
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: var(--transition);
+    overflow-y: auto;
+}
+
+/* Note: The rest of the CSS from the original file would be split into modular files.
+   For now, we keep the remaining CSS here for compatibility, but it can be further modularized. */
+
+/* Import the rest of the CSS from the original file */
+/* This is a placeholder - in a full refactor, all CSS would be split into modular files */

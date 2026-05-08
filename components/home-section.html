@@ -1,0 +1,132 @@
+<!-- HOME SECTION -->
+<section id="section-home" class="section active">
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-badge">
+            <span>🚀 AI PM Odyssey v1.0</span>
+        </div>
+        <h1 class="hero-title">
+            <span class="gradient-text">From Spreadsheet PM</span>
+            <span class="block">→ <span class="neon-text">AI Product Wizard</span></span>
+        </h1>
+        <p class="hero-subtitle">The gamified universe where Product Managers become AI legends. No fluff. Just dopamine-fueled learning.</p>
+        
+        <!-- Journey Map -->
+        <div class="journey-map">
+            <div class="journey-start">
+                <div class="journey-card confused">
+                    <div class="journey-icon">😰</div>
+                    <h3>YOU ARE HERE</h3>
+                    <div class="journey-details">
+                        <p>Drowning in Jira tickets</p>
+                        <p>37 Slack notifications/min</p>
+                        <p>Roadmap chaos level: MAX</p>
+                        <p>AI knowledge: <span class="meter low">▰▰▰▰▰▰▰▰▰▰ 10%</span></p>
+                    </div>
+                    <div class="sticker">"Is AI just fancy Excel?"</div>
+                </div>
+            </div>
+
+            <div class="journey-path">
+                <div class="path-line"></div>
+                <div class="path-nodes">
+                    <div class="path-node" data-level="1">Lv.1</div>
+                    <div class="path-node" data-level="25">Lv.25</div>
+                    <div class="path-node" data-level="50">Lv.50</div>
+                    <div class="path-node" data-level="75">Lv.75</div>
+                    <div class="path-node" data-level="100">Lv.100</div>
+                </div>
+                <div class="path-progress" id="path-progress"></div>
+                <div class="traveling-icons">
+                    <span class="travel-icon" style="top:20%">🚀</span>
+                    <span class="travel-icon" style="top:40%">🤖</span>
+                    <span class="travel-icon" style="top:60%">⚡</span>
+                    <span class="travel-icon" style="top:80%">🧠</span>
+                </div>
+            </div>
+
+            <div class="journey-end">
+                <div class="journey-card wizard">
+                    <div class="journey-icon">🧙‍♂️</div>
+                    <h3>YOUR DESTINATION</h3>
+                    <div class="journey-details">
+                        <p>Controls AI agents with mind</p>
+                        <p>Fluent in LLM (it's a language now)</p>
+                        <p>Salary: 💰💰💰💰💰</p>
+                        <p>AI mastery: <span class="meter high">▰▰▰▰▰▰▰▰▰▰ 100%</span></p>
+                    </div>
+                    <div class="sticker">"I am the API now."</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="cta-group">
+            <button class="cta-btn primary" onclick="startJourney()">
+                <span>Start My AI Journey</span>
+                <span class="btn-particle">✨</span>
+            </button>
+            <button class="cta-btn secondary" onclick="showNotification('Bold move. Let\'s see where you\'re at.')">
+                <span>I'm Already Dangerous</span>
+            </button>
+            <button class="cta-btn outline" onclick="showNotification('Okay, let\'s keep it simple. No jargon. Just vibes.')">
+                <span>Teach Me Like I'm a PM</span>
+            </button>
+            <button class="cta-btn danger" onclick="deployChaos()">
+                <span>Deploy Chaos</span>
+                <span class="btn-particle">💥</span>
+            </button>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="float-item" style="top:10%;left:5%;animation-delay:0s">🤖</div>
+            <div class="float-item" style="top:20%;right:10%;animation-delay:1s">🚀</div>
+            <div class="float-item" style="top:50%;left:2%;animation-delay:2s">📝</div>
+            <div class="float-item" style="top:70%;right:5%;animation-delay:0.5s">⚡</div>
+            <div class="float-item" style="top:40%;left:8%;animation-delay:1.5s">🧠</div>
+            <div class="float-item" style="top:80%;left:3%;animation-delay:2.5s">💡</div>
+            <div class="float-item" style="top:15%;right:3%;animation-delay:3s">🎯</div>
+            <div class="float-item" style="top:60%;right:8%;animation-delay:1.8s">🔥</div>
+        </div>
+    </div>
+
+    <!-- Stats Overview -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">📚</div>
+            <div class="stat-info">
+                <span class="stat-value" id="lessons-completed">0</span>
+                <span class="stat-label">Lessons Done</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">⭐</div>
+            <div class="stat-info">
+                <span class="stat-value" id="total-xp">0</span>
+                <span class="stat-label">Total XP</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🏆</div>
+            <div class="stat-info">
+                <span class="stat-value" id="achievements-count">0</span>
+                <span class="stat-label">Achievements</span>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">🔥</div>
+            <div class="stat-info">
+                <span class="stat-value" id="streak-display-count">0</span>
+                <span class="stat-label">Day Streak</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Modules Preview -->
+    <div class="section-header">
+        <h2>🎯 Continue Your Journey</h2>
+        <button class="view-all" onclick="switchSection('modules')">View All →</button>
+    </div>
+    <div class="modules-grid" id="modules-preview"></div>
+</section>
